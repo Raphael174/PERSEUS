@@ -7,11 +7,11 @@ from sympy import symbols, Eq, solve
 
 from SingleSwirlCorrel import *   #Imports all the correlationns known for parameters [Basic, Cd,thickness,Vt,AP,Beta,BuL,SMD,mf_ev]
 from SSAnimation import *         #Imports the animation file
-from ErgolData import *           #Imports the data from the Ergols [density, surface tension, diffussion,...]
+from constants.ErgolData import *           #Imports the data from the Ergols [density, surface tension, diffussion,...]
 from ExperimentalSSI import *     #Imports the experimental data from a set of injectors tested by "Mr.Wei" in his paper
 from CorrelParam import *         #Imports the functions to estimate performance parameters with the best working correlations
 from Plots import *               #Imports plot funcions to simplify the plotting of the correlations and experimental data.
-from BibliographyImpinging import*
+# from BibliographyImpinging import*
 
 
 #////////////////////APROXIMATIONS///////////////////////////

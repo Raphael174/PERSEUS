@@ -6,7 +6,7 @@ import random
 
 from SingleSwirlCorrel import *
 from SSAnimation import *
-from ErgolData import *
+from constants.ErgolData import *
 from ExperimentalSSI import *
 
         

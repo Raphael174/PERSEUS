@@ -3,7 +3,7 @@ from matplotlib.animation import FFMpegWriter
 import numpy as np
 from ExperimentalSSI import *
 from SingleSwirlCorrel import *
-from ErgolData import *
+from constants.ErgolData import *
 from CorrelParam import *
 
 #/////////////////////// PLOTS ////////////////////////
